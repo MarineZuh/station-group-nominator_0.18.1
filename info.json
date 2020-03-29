@@ -3,7 +3,7 @@
     "version": "0.18.1",
     "title": "Station Group Nominator",
     "author": "MarineZuh",
-    "homepage": "",
+    "homepage": "https://github.com/MarineZuh/station-group-nominator_0.18.1",
     "factorio_version": "0.18",
     "dependencies": [
         "base >= 0.18"
