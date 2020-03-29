@@ -1,0 +1,12 @@
+{
+    "name": "station-group-nominator",
+    "version": "0.18.1",
+    "title": "Station Group Nominator",
+    "author": "MarineZuh",
+    "homepage": "",
+    "factorio_version": "0.18",
+    "dependencies": [
+        "base >= 0.18"
+    ],
+    "description": "Allows select and rename a group of train stops. New name accept placeholders between braces ( e.g. {x} ) that will be replace by a number (starting at one) for each stop ."
+}
