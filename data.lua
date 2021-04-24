@@ -2,6 +2,7 @@ local item = {
   type = "selection-tool",
   name = "station-group-nominator",
   subgroup = "tool",
+  order = "z[station-group-nominator]",
   show_in_library = false,
   icons = {
     {
@@ -9,7 +10,7 @@ local item = {
       icon_size = 32,
     }
   },
-  flags = {"only-in-cursor", "hidden"},
+  flags = {"only-in-cursor", "spawnable"},
   stack_size = 1,
   stackable = false,
   selection_color = { r = 0.72, g = 0.45, b = 0.2, a = 1 },
@@ -23,8 +24,9 @@ local item = {
 local shortcut = {
   type = "shortcut",
   name = "shortcut-station-group-nominator-item",
-  action = "create-blueprint-item",
-  item_to_create = "station-group-nominator",
+  action = "spawn-item",
+  item_to_spawn  = "station-group-nominator",
+  order = "m[station-group-nominator]",
   icon = {
     filename = "__station-group-nominator__/graphics/icons/station-group-nominator-x32.png",
     flags = {
