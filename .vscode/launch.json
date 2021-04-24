@@ -10,7 +10,7 @@
             "type": "factoriomod",
             "request": "launch",
             "name": "Factorio Mod Debug",
-            "factorioPath": "C:/Users/Kerlyson/Downloads/Factorio_x64_0.18.17/Factorio_0.18.17/bin/x64/factorio.exe"
+            "factorioPath": "C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin/x64/factorio.exe"
         }
     ]
 }
